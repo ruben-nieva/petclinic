@@ -1,4 +1,4 @@
-node {
+node ('maven'){
     
     stage 'Checkout'
     git "https://github.com/ruben-nieva/petclinic.git"
